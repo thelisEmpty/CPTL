@@ -65,10 +65,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
 
         }
-        removeBtn.setOnClickListener {
+       /* removeBtn.setOnClickListener {
             val intent = Intent(this, RemoveTransactionActivity::class.java)
             startActivity(intent)
-        }
+        }*/
     }
 
     private fun fetchAll() {

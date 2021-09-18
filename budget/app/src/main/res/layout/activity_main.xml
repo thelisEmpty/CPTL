@@ -47,9 +47,9 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/balance_layout"
             android:layout_marginStart="10dp"
+            android:background="#EEEEEE"
             android:layout_marginTop="12dp"
             android:layout_marginEnd="10dp"
-            android:background="#EEEEEE"
             app:cardCornerRadius="12dp">
 
             <LinearLayout
@@ -78,8 +78,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Бюджет"
-                        android:textAllCaps="true"
                         android:textColor="@color/green"
+                        android:textAllCaps="true"
                         android:textSize="14sp" />
                 </LinearLayout>
 
@@ -103,8 +103,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Расходы"
-                        android:textAllCaps="true"
                         android:textColor="@color/red"
+                        android:textAllCaps="true"
                         android:textSize="14sp" />
                 </LinearLayout>
 
@@ -131,10 +131,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@+id/recyclerbiew_title"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginBottom="10dp" />
+            android:layout_margin="10dp" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/addBtn"
@@ -144,27 +141,10 @@
             android:layout_alignParentBottom="true"
             android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
-            android:layout_marginEnd="345dp"
-            android:layout_marginBottom="33dp"
-            android:backgroundTint="@color/grengren"
-            android:foregroundGravity="center"
-            android:src="@drawable/ic__add"
-            app:borderWidth="0dp"
-            app:tint="@color/white" />
-
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/removeBtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="23dp"
-            android:layout_marginBottom="33dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
             android:backgroundTint="@color/red"
-            android:foregroundGravity=""
-            android:src="@drawable/minus"
+            android:src="@drawable/ic__add"
             app:borderWidth="0dp"
             app:tint="@color/white" />
 
